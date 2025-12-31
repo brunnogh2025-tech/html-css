@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
-            height: 97vh;
+            height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size: contain;  
-            /*Coloca a imagem no tamanho original, mesmo que possa criar barras 
+            background-position: center center;
+            background-repeat: repeat-y;
+            /*background-size: contain; 
+            Coloca a imagem no tamanho original, mesmo que possa criar barras 
             laterais e no topo/chão do site*/
-            /*background-size: cover;
-            corta a imagem se for exibida numa tela menor, mas pode exibir inteira se der um desfoque
+            /*background-size: cover;*/
+            /*corta a imagem se for exibida numa tela menor, mas pode exibir inteira se der um desfoque
+            */
+            background-attachment: fixed;
+            /*shorthand -> background
+            color -> image -> position -> repeat -> size -> attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center repeat-y cover fixed;
+            /*(Mesmo código das linhas acima)
             */
         }
         main{
@@ -25,13 +32,38 @@
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            margin: auto;
+        }
+        div{
+            background-color: transparent;
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        <div></div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat aliquid natus, distinctio tempora neque consequuntur voluptates nemo autem doloremque deleniti dicta voluptate vero voluptatum libero dolorem sapiente? Sapiente, quisquam.
+        </p>
     </main>
 </body>
 </html>
